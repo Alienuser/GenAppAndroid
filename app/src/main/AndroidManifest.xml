@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ GenAppAndroid
+  ~ Copyright (C) 2017 Lars Helmuth Probst - All Rights Reserved.
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited.
+  ~ This file is part of the project GenAppAndroid.
+  ~
+  ~ @version 1.0 Release
+  ~ @author Lars Helmuth Probst (Alienuser)
+  ~ @copyright 2017 Lars Helmuth Probst
+  ~ @link http://www.Lars-Probst.de
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.famprobst.genappandroid">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:resizeableActivity="true"
+        android:supportsPictureInPicture="true"
+        android:supportsRtl="true"
+        android:theme="@style/ThemeGenAppAndroid">
+
+        <activity
+            android:name=".Activity.Activity_Splashscreen"
+            android:label="@string/app_name"
+            android:theme="@style/ThemeGenAppAndroid.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activity.Activity_Main"
+            android:label="@string/app_name" />
+
+    </application>
+
+</manifest>

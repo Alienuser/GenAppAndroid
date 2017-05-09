@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ GenAppAndroid
+  ~ Copyright (C) 2017 Lars Helmuth Probst - All Rights Reserved.
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited.
+  ~ This file is part of the project GenAppAndroid.
+  ~
+  ~ @version 1.0 Release
+  ~ @author Lars Helmuth Probst (Alienuser)
+  ~ @copyright 2017 Lars Helmuth Probst
+  ~ @link http://www.Lars-Probst.de
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activityMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activityMain_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</android.support.design.widget.CoordinatorLayout>

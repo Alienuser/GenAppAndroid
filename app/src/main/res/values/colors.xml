@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ GenAppAndroid
+  ~ Copyright (C) 2017 Lars Helmuth Probst - All Rights Reserved.
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited.
+  ~ This file is part of the project GenAppAndroid.
+  ~
+  ~ @version 1.0 Release
+  ~ @author Lars Helmuth Probst (Alienuser)
+  ~ @copyright 2017 Lars Helmuth Probst
+  ~ @link http://www.Lars-Probst.de
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<resources>
+
+    <!-- General -->
+    <color name="general_SplashScreen">#152935</color>
+    <color name="general_colorPrimary">#152935</color>
+    <color name="general_colorPrimaryDark">#020F16</color>
+    <color name="general_colorAccent">#533B1E</color>
+
+</resources>
